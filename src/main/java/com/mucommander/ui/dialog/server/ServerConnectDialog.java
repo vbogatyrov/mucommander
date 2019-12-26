@@ -107,6 +107,7 @@ public class ServerConnectDialog extends FocusDialog implements ActionListener, 
         addTab(FileProtocols.SFTP, new SFTPPanel(this, mainFrame), selectPanelClass);
         addTab(FileProtocols.SMB, new SMBPanel(this, mainFrame), selectPanelClass);
         addTab(FileProtocols.VSPHERE, new VSpherePanel(this, mainFrame), selectPanelClass);
+        addTab(FileProtocols.FOOEX, new FOOEXPanel(this, mainFrame), selectPanelClass);
 
         currentServerPanel = getCurrentServerPanel();
 
